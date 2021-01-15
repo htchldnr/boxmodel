@@ -1,0 +1,155 @@
+/* Universal Styles */
+
+html{
+font-size: 18px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align:center;
+  background-image: url(background.jpg) ;
+}
+
+a { text-decoration: none;
+
+}
+
+/* Navigation */
+
+nav {
+  text-align: center;
+
+}
+
+nav img {
+  display: block;
+  width:200px;
+  margin:auto
+}
+
+nav span {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 10px 0 ;
+  display:block
+
+}
+
+nav a {
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+}
+
+/* Content Container */
+
+.content {
+  width: 100%;
+  margin: 10px auto;
+  overflow: scroll;
+}
+
+/* Content Header */
+
+.header {
+  background-image: url("./main_pizza.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+}
+
+.header h1 {
+  background-color: #152e0e;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding:20px;
+  margin: 0 auto;
+
+}
+
+/* Content Body */
+
+.content .body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.body p {
+  color: black;
+  font-weight: 100;
+  line-height: 200%;
+  width: 90%;
+  margin-top: 18px;
+  font-size: 200%;
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #152e0e;
+  display: block;
+  font-weight: 700;
+  width:200px;
+  padding:20px;
+  margin: 40 auto;
+  border: 1px solid darkgreen;
+  margin-left: 40%;
+
+}
+
+.button:hover { 
+  background-color: darkgreen ;
+}
+
+/* Content Nutrition */
+
+ul.nutrition { 
+  padding:20px;
+  margin-bottom: 3px;
+
+}
+
+ul.nutrition li {
+  display: inline-block;
+  list-style: none;
+  background-color: #152e0e;
+  width:200px;
+  padding: 10px 20px;
+  margin-bottom: 3px;
+  
+}
+
+.nutrition .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+footer { 
+  background-color:#152e0e;
+  color: white
+}
+
+.delivery {
+  font-size:x-large;
+  margin: 20px;
+  padding: 20px;
+}
+.deliver {
+padding: 0 20px;
+font-size: larger;
+}
